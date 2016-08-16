@@ -11,7 +11,7 @@ module.exports = function (oAppData) {
 		 * @returns {Boolean}
 		 */
 		isAvailable: function (iUserRole, bPublic) {
-			return !bPublic && iUserRole === Enums.UserRole.PowerUser || iUserRole === Enums.UserRole.RegisteredUser;
+			return !bPublic && iUserRole === Enums.UserRole.NormalUser || iUserRole === Enums.UserRole.Customer;
 		},
 		
 		/**
