@@ -15,7 +15,7 @@ module.exports = function (oAppData) {
 				var App = require('%PathToCoreWebclientModule%/js/App.js');
 
 				App.subscribeEvent('SimpleChat::DisplayPost::before', function (oParameters) {
-					oParameters.Post.displayText = oParameters.Post.text.replace(':)', '&#128522;');
+					oParameters.Post.displayText = oParameters.Post.text.replace(new RegExp(':[)]','g'), '&#128522;');
 				});
 			}
 		};
