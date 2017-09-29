@@ -1,13 +1,8 @@
 {
 	"name": "afterlogic/aurora-module-webclient-simple-chat-emoji-plugin",
-	"version": "0.1.0",
 	"type": "aurora-module",
-	"dist": {
-		"url":"https://github.com/afterlogic/aurora-module-webclient-simple-chat-emoji-plugin/archive/master.zip",
-		"type":"zip"
-	},
 	"require": {
-		"afterlogic/aurora-framework": "~0.1"
+		"afterlogic/aurora-framework": "~0.6"
 	},
 	"extra": {
 		"installer-name": "SimpleChatEmojiWebclientPlugin"
